@@ -8,17 +8,12 @@
 To create and implement Holt Winter's Method Model using python for goodreadsbooks dataset.
 
 ### ALGORITHM:
-1. You import the necessary libraries
-2. You load a CSV file containing daily sales data into a DataFrame, parse the 'date' column as
-datetime, and perform some initial data exploration
-3. You group the data by date and resample it to a monthly frequency (beginning of the month
-4. You plot the time series data
-5. You import the necessary 'statsmodels' libraries for time series analysis
-6. You decompose the time series data into its additive components and plot them:
-7. You calculate the root mean squared error (RMSE) to evaluate the model's performance
-8. You calculate the mean and standard deviation of the entire sales dataset, then fit a Holt-
-Winters model to the entire dataset and make future predictions
-9. You plot the original sales data and the predictions
+1. Loading and exploring the CSV data
+2. Resampling the data to a monthly frequency
+3. Plotting the time series and decomposing into additive components
+4. Calculating RMSE for model evaluation
+5. Fitting the Holt-Winters model and forecasting future predictions
+6. Plotting the original and predicted values
     
 ### PROGRAM:
 ```python
